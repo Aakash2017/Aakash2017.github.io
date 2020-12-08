@@ -9,18 +9,18 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is ',
+  name: 'Aakash Shukla',
+  subtitle: 'Welcome to my website!',
+  cta: 'more about me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile1.jpg',
+  paragraphOne: 'I am currently a Software Engineer at Google, previosly at Amazon and OneSignal, and a recent new grad from the University of California, Berkeley, where I studied Computer Science and Taco Bell Comsumption.',
+  paragraphTwo: 'I\'m super passionate about teaching computer science, graph theory, and starting side projects but never finishing them. Outside of my professional interests, I spend my free time cooking, reading, and performing standup comedy (come check me out at The Starry Plough)!',
+  paragraphThree: 'Every six months I like to take a step back from my routine and choose a particular skill to learn, like swimming or playing the piano. If theres something you recommend that I try, hmu and let me know',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,30 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Envoy_Logo_Final.png',
+    title: 'Envoy Wasm',
+    info: 'Maintainer for the open-source envoy-wasm directory (recently integegrated into the envoy repository). Envoy is an open-source cloud native network proxy. The WebAssembly (Wasm) extension allows users to inject business logic and personalized endpoints  directly into the proxy in an isolated and secure sandbox.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/envoyproxy/envoy-wasm',
+    repo: 'https://github.com/envoyproxy/envoy-wasm', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'beehive_logo.png',
+    title: 'Beehive',
+    info: 'Developer for the open-source Beehive project. Provides an exclusive portal for UC Berkeley students to interact with professors to seek and get matched with research opportunities.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/ucberkeley/Beehive',
+    repo: 'https://github.com/ucberkeley/Beehive', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +50,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'aakashshukla99@gmail.com',
 };
 
 // FOOTER DATA
@@ -78,12 +69,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/aakash-shukla-a21b65148/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Aakash2017',
     },
   ],
 };
