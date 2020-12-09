@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: 'I am currently a Software Engineer at Google, previosly at Amazon and OneSignal, and a recent new grad from the University of California, Berkeley, where I studied Computer Science and Taco Bell Comsumption.',
+  paragraphOne: 'I am currently a Software Engineer at Google, previously at Amazon and OneSignal, and a recent new grad from the University of California, Berkeley, where I studied Computer Science and Taco Bell Consumption.',
   paragraphTwo: 'I\'m super passionate about teaching computer science, graph theory, and starting side projects but never finishing them. Outside of my professional interests, I spend my free time cooking, reading, and performing standup comedy (come check me out at The Starry Plough)!',
-  paragraphThree: 'Every six months I like to take a step back from my routine and choose a particular skill to learn, like swimming or playing the piano. If theres something you recommend that I try, hmu and let me know',
+  paragraphThree: 'Every six months I like to take a step back from my routine and choose a particular skill to learn, like swimming or playing the piano. If there\'s something you recommend that I try, hmu and let me know',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Envoy_Logo_Final.png',
     title: 'Envoy Wasm',
-    info: 'Maintainer for the open-source envoy-wasm directory (recently integegrated into the envoy repository). Envoy is an open-source cloud native network proxy. The WebAssembly (Wasm) extension allows users to inject business logic and personalized endpoints  directly into the proxy in an isolated and secure sandbox.',
+    info: 'Maintainer for the open-source envoy-wasm directory (recently integrated into the envoy repository). Envoy is an open-source cloud native network proxy. The WebAssembly (Wasm) extension allows users to inject business logic and personalized endpoints directly into the proxy in an isolated and secure sandbox.',
     info2: '',
     url: 'https://github.com/envoyproxy/envoy-wasm',
     repo: 'https://github.com/envoyproxy/envoy-wasm', // if no repo, the button will not show up
