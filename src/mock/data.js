@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I am currently a Software Engineer at Google, previously at Amazon and OneSignal, and a recent new grad from the University of California, Berkeley, where I studied Computer Science and Taco Bell Consumption.',
   paragraphTwo: 'I\'m super passionate about teaching computer science, graph theory, and starting side projects but never finishing them. Outside of my professional interests, I spend my free time cooking, reading, and performing standup comedy (come check me out at The Starry Plough)!',
   paragraphThree: 'Every six months I like to take a step back from my routine and choose a particular skill to learn, like swimming or playing the piano. If there\'s something you recommend that I try, hmu and let me know',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1TfSWctfIaZkytbeCltfYmB79EtsoXy9a/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
