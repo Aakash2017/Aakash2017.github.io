@@ -8,7 +8,7 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Aakash Shukla</title>
+        <title>Coming Shortly</title>
         <html lang="en" />
         <meta name="description" content="Coming shortly." />
       </Helmet>
